@@ -54,12 +54,12 @@ MIGRATE_TO_JAIL="target"
 ### Execution
 Once you've prepared the configuration file (if required), run the script `script backup.log ./backup-jail.sh`.
 
-#### Backup
+## Backup
 When run, choose backup when prompted to (B)ackup or (R)estore. 
 
 To automate backup, create a cron job pointing to the backup script.
 
-#### Restore
+## Restore
 **WARNING: A restore overwrites any existing WordPress data!!!**
 
 When run, choose restore when prompted to (B)ackup or (R)estore. You will be promted once more to reconfirm. The default action is to abort.
