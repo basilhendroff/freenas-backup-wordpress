@@ -62,7 +62,7 @@ To automate backup, create a cron job pointing to the backup script.
 ### Restore
 **WARNING: A restore overwrites existing WordPress data on the target!!!**
 
-When run, choose restore when prompted to (B)ackup or (R)estore. You will be promted once more to reconfirm. The default action is to abort.
+When run, choose restore when prompted to (B)ackup or (R)estore. You will be prompted once more to reconfirm. The default action is to abort.
 
 ### Migrate
 **WARNING: A migrate overwrites existing WordPress data on the target!!!**
