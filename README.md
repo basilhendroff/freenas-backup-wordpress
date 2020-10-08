@@ -1,4 +1,4 @@
-# freenas-backup-wordpress
+# wordpress-backup
 
 Script to backup, restore and migrate Wordpress data. 
 
