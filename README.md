@@ -25,7 +25,7 @@ The backup script options have sensible defaults, which can be adjusted if neede
 
 - JAIL_NAME: The name of the WordPress jail, defaults to `wordpress`.
 - BACKUP_PATH: Backups are stored in this location. Default is the directory `/backup` under the pool path.
-- MIGRATE_TO_JAIL: The name of the target WordPress jail. This parameter is only invoked when migrating a WordPress site from one jail to another.
+- TARGET_JAIL: This parameter is only invoked when migrating a WordPress site from one jail to another.
 
 Some examples follow:
 
@@ -48,7 +48,7 @@ BACKUP_PATH="/mnt/tank/cloud"
 #### 4. *`I want to migrate my WordPress site to a another jail.'*
 ```
 JAIL_NAME="source"
-MIGRATE_TO_JAIL="target"
+TARGET_JAIL="destination"
 ```
 
 ### Execution
