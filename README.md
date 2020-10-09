@@ -16,7 +16,7 @@ You must have a working Wordpress install to use this script. Although not requi
 Download the repository to a convenient directory on your FreeNAS system by changing to that directory and running `git clone https://github.com/basilhendroff/wordpress-backup`.  Then change into the new `wordpress-backup` directory.
 
 ### Setup
-If you've used the previously mentioned install script and accepted the default WordPress jail name `wordpress`, additional setup isn't necessary for the backup script to run. If you have changed the jail name, or have installed WordPress using another method, then create a file called `backup-config` with your favorite text editor.  In its minimal form, it would look something like this:
+If you've used the previously mentioned install script and accepted the default WordPress jail name `wordpress`, additional setup isn't necessary for the backup script to run. If you have changed the jail name, create a file called `backup-config` with your favorite text editor.  In its minimal form, it would look something like this:
 
 ```
 JAIL_NAME="wp-blog"
